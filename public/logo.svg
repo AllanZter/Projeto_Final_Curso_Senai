@@ -1,0 +1,44 @@
+<svg
+  width="40"
+  height="40"
+  viewBox="0 0 40 40"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    {/* Gradiente laranja */}
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#ffb400" />
+      <stop offset="100%" stopColor="#e69500" />
+    </linearGradient>
+
+    {/* Sombra */}
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" floodColor="#3b82f6" floodOpacity="0.3"/>
+    </filter>
+  </defs>
+
+  {/* Fundo */}
+  <rect
+    x="0"
+    y="0"
+    width="40"
+    height="40"
+    rx="10"
+    fill="url(#grad)"
+    filter="url(#shadow)"
+  />
+
+  {/* Letra */}
+  <text
+    x="50%"
+    y="50%"
+    dominantBaseline="middle"
+    textAnchor="middle"
+    fill="white"
+    fontSize="18"
+    fontWeight="bold"
+    fontFamily="Arial, sans-serif"
+  >
+    I
+  </text>
+</svg>
