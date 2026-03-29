@@ -1,8 +1,13 @@
+## Projeto desenvolvido como parte do curso DESENVOLVIMENTO JAVASCRIPT DO SENAI
+
 ## Tela de Login
 
 ![tela_login](./src/assets/tela_login.png)
 
 ## Listagem de Produtos
+
+## Utilizando Api publica  do Fakestore
+## https://fakestoreapi.com/products
 
 ![Produtos](./src/assets/produtos.png)
 
