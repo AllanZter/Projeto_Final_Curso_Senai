@@ -1,5 +1,7 @@
 ## Projeto desenvolvido como parte do curso DESENVOLVIMENTO JAVASCRIPT DO SENAI
 
+## Futuramente será adicionado BACKEND e configuração com BANCO DE DADOS
+
 ## Tela de Login
 
 ![tela_login](./src/assets/tela_login.png)
